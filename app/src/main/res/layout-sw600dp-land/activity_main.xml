@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.dimens_dispositions.MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/rectangle_at_the_left"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_height="0dp"
+            android:background="@color/colorRectangle1" />
+
+        <View
+            android:id="@+id/rectangle_at_the_right"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_height="0dp"
+            android:background="@color/colorRectangle2" />
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:layout_height="match_parent">
+        <View
+            android:id="@+id/rectangle_at_the_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorRectangle3" />
+    </FrameLayout>
+
+
+
+
+
+</LinearLayout>

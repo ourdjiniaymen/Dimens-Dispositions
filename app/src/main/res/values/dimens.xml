@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimensRectangle">300dp</dimen>
+    <dimen name="big_dimensRectangle">650dp</dimen>
+    <dimen name="small_dimensRectangle">225dp</dimen>
+    <dimen name="very_small_dimensRectangle">225dp</dimen>
+
+
+</resources>
